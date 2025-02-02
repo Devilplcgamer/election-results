@@ -25,7 +25,7 @@ def plot_results(results):
     plt.show()
 
 def main():
-    file_path = "election_data.csv"  # Change this to your actual file path
+    file_path = "election_data.csv"  
     df = load_data(file_path)
     results, winner = analyze_results(df)
     print("Election Results:")
